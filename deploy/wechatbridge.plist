@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.wechatbridge</string>
+    <!-- pipx installs the entry point under ~/.local/bin — run `pipx install wechatbridge-cli` first.
+         Config is read from ~/.config/wechatbridge/<instance>.env (see deploy/wechatbridge.env.example). -->
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/YOUR_USER/.local/bin/wechatbridge</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+    <key>StandardOutPath</key>
+    <string>/tmp/wechatbridge.log</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/wechatbridge.err</string>
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/Users/YOUR_USER/.local/bin:/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin</string>
+    </dict>
+</dict>
+</plist>

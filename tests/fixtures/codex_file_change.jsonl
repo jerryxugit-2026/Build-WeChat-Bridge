@@ -1,0 +1,5 @@
+{"type":"thread.started","thread_id":"33333333-3333-3333-3333-333333333333"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"f1","type":"file_change","changes":[{"path":"out.md","kind":"add"},{"path":"keep.py","kind":"update"},{"path":"gone.txt","kind":"delete"}]}}
+{"type":"item.completed","item":{"id":"i1","type":"agent_message","text":"made some files"}}
+{"type":"turn.completed","usage":{}}

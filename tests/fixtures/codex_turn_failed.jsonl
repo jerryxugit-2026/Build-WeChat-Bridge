@@ -1,0 +1,2 @@
+{"type":"thread.started","thread_id":"44444444-4444-4444-4444-444444444444"}
+{"type":"turn.failed","error":{"message":"model not found: gpt-9"}}

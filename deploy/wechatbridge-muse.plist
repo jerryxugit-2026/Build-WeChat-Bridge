@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.wechatbridge.muse</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/Users/YOUR_USER/wechatbridge-muse/.venv/bin/wechatbridge</string>
+  </array>
+  <key>WorkingDirectory</key><string>/Users/YOUR_USER/wechatbridge-muse</string>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>WECHAT_AGENT_ROOT</key><string>/Users/YOUR_USER/wechat-agent</string>
+    <key>WECHATBRIDGE_BACKEND</key><string>muse</string>
+    <key>WECHATBRIDGE_ALLOWED_SENDERS</key><string>YOUR_ALLOWED_SENDER@im.wechat</string>
+  </dict>
+  <key>RunAtLoad</key><true/>
+  <key>KeepAlive</key><true/>
+  <key>StandardOutPath</key><string>/Users/YOUR_USER/wechatbridge-muse/deploy/daemon.out.log</string>
+  <key>StandardErrorPath</key><string>/Users/YOUR_USER/wechatbridge-muse/deploy/daemon.err.log</string>
+</dict>
+</plist>

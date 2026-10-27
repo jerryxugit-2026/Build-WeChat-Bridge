@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"33333333-3333-3333-3333-333333333333"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"i1","type":"agent_message","text":"❌ something looks off, but the task actually completed"}}
+{"type":"turn.completed","usage":{}}

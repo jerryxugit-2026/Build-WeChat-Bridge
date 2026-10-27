@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"44444444-4444-4444-4444-444444444444"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"f0","type":"file_change","changes":[{"path":"out.md","kind":"add"},{"path":"keep.py","kind":"update"}]}}
+{"type":"item.completed","item":{"id":"f1","type":"file_change","status":"failed","changes":[{"path":"fail.md","kind":"add"},{"path":"fail2.py","kind":"update"}]}}
+{"type":"item.completed","item":{"id":"f2","type":"file_change","status":"completed","changes":[{"path":"done.md","kind":"add"}]}}
+{"type":"item.completed","item":{"id":"i1","type":"agent_message","text":"made some files"}}
+{"type":"turn.completed","usage":{}}

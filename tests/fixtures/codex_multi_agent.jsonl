@@ -1,0 +1,5 @@
+{"type":"thread.started","thread_id":"22222222-2222-2222-2222-222222222222"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"i1","type":"agent_message","text":"first reply"}}
+{"type":"item.completed","item":{"id":"i2","type":"agent_message","text":"final reply"}}
+{"type":"turn.completed","usage":{}}

@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"11111111-1111-1111-1111-111111111111"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"i1","type":"agent_message","text":"Hello from codex"}}
+{"type":"turn.completed","usage":{"input_tokens":10,"output_tokens":5}}

@@ -1,0 +1,1 @@
+# wechatbridge test package
